@@ -86,7 +86,7 @@ def poll(bb, own):
             rotation = TB * own['rotAccel']
             own.applyRotation([0,0,rotation], True)
         
-        print("L %f R %f T %f B %f" % (left, right, top, bottom))
+        #print("L %f R %f T %f B %f" % (left, right, top, bottom))
             
         # Clamping
         if own['my'] > own['maxspd']:
