@@ -63,3 +63,6 @@ VR, Input and physics
 
 Lubosz Sarnecki
 
+## Blog Post
+
+http://lubosz.wordpress.com/2014/08/12/hovr-a-blender-game-engine-demo-for-the-oculus-rift-and-the-nintendo-balance-board/
