@@ -3,6 +3,12 @@ HoVR
 
 A Blender Game Engine Demo for the Oculus Rift and the Nintendo Balance Board
 
+## Hardware Requirements
+
+* Oculus Rift (tested with DK1)
+* Wii Balance Board
+* Bluetooth dongle
+
 ## Dependencies
 
 * python-rift 
@@ -10,7 +16,24 @@ A Blender Game Engine Demo for the Oculus Rift and the Nintendo Balance Board
 * python-balanceboard
   https://github.com/lubosz/python-balanceboard
 * Blender 2.71
-* udev rules for Oculus Rift
+* udev rules for Oculus Rift on Linux
+
+## Installation
+
+If you are not on Arch Linux you need to build and install 4 packages manually.
+
+* WiiC
+* python-balanceboard
+* OpenHMD
+* python-rift
+
+## Arch Linux Package
+
+https://aur.archlinux.org/packages/hovr-git/
+
+```
+$ pacaur -S hovr-git
+```
 
 ## Run Demo
 
@@ -40,6 +63,3 @@ VR, Input and physics
 
 Lubosz Sarnecki
 
-## Arch Linux Package
-
-https://aur.archlinux.org/packages/hovr-git/
