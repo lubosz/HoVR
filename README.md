@@ -39,3 +39,7 @@ http://devlog-martinsh.blogspot.de/
 VR, Input and physics
 
 Lubosz Sarnecki
+
+## Arch Linux Package
+
+https://aur.archlinux.org/packages/hovr-git/
